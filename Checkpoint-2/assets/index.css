@@ -1,0 +1,494 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+/*header*/
+.banner{
+	
+	z-index: 0;
+	position: absolute;
+	background-color: rgb(0,0,0,0.9);
+    
+	
+	
+	
+}
+.banner img{
+	background-color: rgb(0,0,0,0.8);
+	opacity: 0.5;
+	max-width: 1279px;
+	
+	
+
+}
+
+.header{
+	position: relative;
+	
+
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;	
+	flex: 0 1 23%;
+	
+	
+}
+.logos{
+	text-align: center;
+	padding-top: 26px;
+	
+}
+.logos a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 24px;
+	padding-bottom: 24px;
+	
+}
+
+.box{
+	display: flex;
+    margin-top: 34px;
+	align-items: center;
+	background-color: white;
+	justify-content: space-between;
+	flex: 0 1 23%;
+	position: fixed;
+	width: 100%;
+	max-width: 1000px;	
+}
+.box a{
+	text-decoration: none;
+	color: black;
+	margin-left: 8px;
+	margin-right: 8px;
+	flex: 0 1 23%;
+}
+
+.left a:hover{
+	color: orangered;
+}
+.right{
+	display: flex;
+	align-items: center;
+    
+}
+.flex{
+	margin-left: 30px;
+	color: red;
+	font-size: 28px;
+	font-weight: bolder;
+	
+}
+.right img{
+	display: flex;
+	align-items: stretch;
+}
+
+
+.headingbox{
+	text-align: center;
+	margin-top: 280px;
+	flex: 0 1 23%;
+}
+.headingone{
+	color: white;
+	font-size: 32px;
+	font-weight: bolder;
+}
+.subheading{
+	color: white;
+	font-weight: lighter;
+	margin-bottom: 16px;
+}
+.line{
+	width: 320px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	
+}
+.design{
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	padding: 7px;
+	width: 140px;
+	margin: 0 auto;
+	
+}
+/* section one our services and our Team*/
+.dots{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 134px;
+}
+.dots a{
+	color: darkgray;
+}
+.dots .darkgrey{
+	color: rgb(24, 22, 22);
+}
+.our{
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 700;
+}
+.our h1{
+	font-size: 26px;
+	text-decoration: underline;
+}
+
+.our p{
+	margin-top: 10px;
+	font-weight: lighter;
+	font-size: 14px;
+}
+/*iconbox*/
+.icons{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex: 0 1 23%;
+}
+.iconbox{
+	width: 22%;
+	display: flex;
+	margin-top: 36px;
+	flex: 0 1 23%;
+}
+.icons .box1{
+	background-color: cadetblue;
+}
+.icons .box2{
+	background-color: rgb(224, 94, 46)
+}
+.icons .box3{
+	background-color: rgb(107, 107, 241)
+}
+.icons .box4{
+	background-color: rgb(77, 156, 77)
+}
+
+.iconbox a{
+	color: white;
+	font-size: 28px;
+	padding: 100px;
+	align-content: center;
+	
+}
+/*Poerfolio*/
+.gallary{
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	flex: 0 1 23%;
+}
+.wrap{
+	flex-wrap: wrap;
+	margin-top: 38px;
+}
+.photoes{
+	flex: 0 1 23%;
+	margin-top: 20px;
+	
+	}
+.image{
+	width: 100%;
+}
+.member{
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+/*skills*/
+.skills{
+	font:italic 32px;
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	margin-top: 80px;
+
+}
+.paraskills{
+	font: italic 20px;
+	text-align: center;
+	font-weight: 50;
+	font-style: italic;
+}
+.toocss{
+	text-decoration: none;
+	color: red;
+}
+.sidebar{
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	flex: 0 1 23%;	
+}
+.leftnew{
+	width: 60%;
+}
+.leftnew p{
+	font-size: 14px;
+}
+.rightnew{
+	width: 38%;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-bottom: 10px;
+
+}
+.boxbar{
+	
+	padding: 7px;
+	margin-bottom: 12px;
+}
+.boxbar p{
+	color: rgb(250, 248, 248);
+	font-size: 14px;
+	
+}
+.rightnew .bar1{
+	background: linear-gradient(to right, rgb(175, 12, 6)  0%, rgb(175, 12, 6) 90%, rgb(187, 176, 176) 90%, rgb(187, 176, 176) 80% 100%);
+}
+.rightnew .bar2{
+	background: linear-gradient(to right, rgb(175, 12, 6)  0%, rgb(175, 12, 6) 80%, rgb(187, 176, 176) 80%, rgb(187, 176, 176) 80% 100%);
+}
+.rightnew .bar3{
+	background: linear-gradient(to right, rgb(175, 12, 6)  0%, rgb(175, 12, 6) 60%, rgb(187, 176, 176) 60%, rgb(187, 176, 176) 80% 100%);
+}
+.rightnew .bar4{
+	background: linear-gradient(to right, rgb(175, 12, 6)  0%, rgb(175, 12, 6) 80%, rgb(187, 176, 176) 80%, rgb(187, 176, 176) 80% 100%);
+}
+/*mapimage*/
+.map{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.contact{
+	color: black;
+	padding: 7px;
+	margin-bottom: 12px;
+	border: 1px solid black;
+}
+.message{
+	padding-bottom: 40px;
+}
+.sendmessage{
+	text-align: center;
+	background-color: rgb(175, 12, 6) ;
+	padding: 7px;
+	margin-bottom: 12px;
+	color: white;
+}
+.rightnew1{
+	
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-bottom: 80px;
+	flex: 0 1 38%;
+}
+/*footer*/
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 160px;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(175, 12, 6) ;
+    padding: 5px 20px;
+    
+    position: fixed;
+    right: 140px;
+    bottom: 1px;
+    text-align: center;
+    color: white;
+    
+    font-size: 14px;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+/*galary page*/
+/*left side*/
+.galarypage{
+	
+	justify-content: space-between;
+	display: flex;
+}
+.galaryleft {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: space-between;
+	padding: 24px;
+	background-color: red;
+	position: fixed; 
+	flex-wrap: wrap;
+	flex: 0 1 35%;
+	
+
+}
+.galaryflex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	
+}
+.galaryflex p{
+	font-size: 32px;
+	margin-right: 88px;
+	color: white;
+	font-weight: 600;
+}
+.homebutton{
+	background-color: red;
+	color: white;
+	border: 2px solid white;
+	font-weight: 800;
+	border-radius: 3px;
+}
+
+.lastheading{
+	
+	margin-top: 250px;
+}
+.lastheading h1{
+	font-size: 26px;
+	color: white;
+	font-weight: 600;
+
+}
+.lastheading p{
+	font-size: 14px;
+}
+.galarylogo a{
+	color: white;
+	text-decoration: none;
+	
+	font-size: 20px;
+	
+	margin-right: 22px;
+}
+.galarylogo{
+	margin-top: 32px;
+}
+
+
+/*rightside*/
+
+.galaryright{
+	padding: 24px;
+	
+	margin-left:280px;
+	max-width: 780px;
+
+	/* flex-wrap: wrap; */
+	/* margin-top: 24px; */
+  
+   
+    	
+}
+.gallary-heading{
+	margin-left: 330px;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.galaryp{
+	display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	
+	
+}
+
+.galarypic{
+	flex: 0 1 30%;
+	margin: 16px 0;
+}
+.half{
+	width: 45%;
+}
+.equal{
+	margin-bottom: 100px;
+}
+.galary-img{
+	width: 100%;
+	border:black 2px solid;
+	border-radius: 10px;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+
+
